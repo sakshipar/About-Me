@@ -1,0 +1,56 @@
+body{
+	background-image: url("Images/Background.jpg");
+	border: 5px groove #326CA9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+	border: 2px solid #000000;
+	height: 180px;
+	display: block;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+@keyframes title{
+    0%   {background-color: burlywood;}
+  25%  {background-color: coral;}
+  50%  {background-color: cornflowerblue;}
+  100% {background-color: darksalmon;}
+}
+h1{
+    background-color: burlywood;
+	color: #0A4380;
+	text-align: center;
+	padding: 10px;
+	font-family: Georgia, Charcoal, sans-serif;
+	font-size: 40px;
+    font-family: 'Yusei Magic', sans-serif;
+    
+    /*Animation*/
+    animation-name: title;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+h2{
+    color: #0A4380;
+	font-size: 30px;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+p{
+    padding: 20px;
+    clear: both;
+	letter-spacing: 1.5px;
+	word-spacing: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+ul{
+	letter-spacing: 1.5px;
+	word-spacing: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+} 
